@@ -1,0 +1,104 @@
+
+
+.ContainerX{
+    margin-top: 2rem;
+    background-color: #1B1E23;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #1B1E23;
+}
+
+#tempo-restante{
+    font-weight: bold;
+}
+
+section input{
+    padding: 0.2rem;
+    margin: 0.1rem;
+    text-align: center;
+    width: 5rem;
+}
+
+section button{
+    margin: 0.2rem;
+}
+
+span .feedback{
+    color: white;
+    font-size: 2rem;
+}
+
+.text-align{
+    text-align: center;
+}
+
+img{
+    width: 28rem;
+    height: 25rem;
+    z-index: 1;
+    box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+}
+
+.temp{
+    text-align: center;
+    padding:8rem 3rem 0rem 3rem;
+    background-color: #272b32;
+    box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+}
+
+.temp h1 svg{
+    margin-bottom: 0.5rem
+}
+
+.video-container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center; /* Centraliza o vídeo horizontalmente */
+    align-items: center; /* Centraliza o vídeo verticalmente */
+    flex-direction: column;
+    background-image: url(./IMG-VIDEO/wallpaper.jpg);
+    background-position: 50%;
+    margin-left: 27%;
+    margin-right: 27%;
+    box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    margin-bottom: 1vh;
+  }
+
+  .video-container h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+
+video{
+    box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+}
+
+hr{
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.video-container h2 svg {
+    margin-bottom: 0.5rem; /* Ajuste a distância do ícone para cima */
+  }
